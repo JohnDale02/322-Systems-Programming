@@ -1,15 +1,15 @@
  # Linux Shell ( I/O Redirection + Piping + Process Control + Signal handling )
 __Linux Shell V2 Improvements:__
-- Implemented I/O redirection for __Stdin__, __StdOut__, __StdErr__ ("<", ">", ">>", "2>")
-- Implemented process Pipe redirection ("|") 
+- Implemented __I/O redirection__ for Stdin, StdOut, StdErr ("<", ">", ">>", "2>")
+- Implemented process __Pipe redirection__ ("|") 
 
 __Linux Shell V1:__
-- Created a Linux shell to handle a subset of command line operations and arguments
-- Implemented function ParseLine to create parse the command line and build argv array
-- Implemented function Eval to evaluate command line (fg, bg, fork)
-- Implemented function Builtin_Cmd to redirect and handle "quit" "jobs" "fg" and "bg" command line arguments
-- Implemented function do_bgfg to change where process is running (fg or bg)
-- Implemented function waitfg to block uniil FG process is no longer in the foreground
-- Implemented function sigchld_handler to reap zombie children when a job terminates (using waitpid)
-- Implemented function sigint_handler to allow for CTRL+C to stop processes
-- Implemented function sigtstp_handler to send SIGTSTP signals to processes when CTRl+Z is pressed
+-  Created a __Linux shell__ to handle a subset of command line operations and arguments
+- Implemented function __ParseLine__ to create parse the command line and build argv array 
+- Implemented function __Eval__ to evaluate command line (__fg__, __bg__, __fork__) 
+- Implemented function __Builtin_Cmd__ to redirect and handle __"quit"__ __"jobs"__ __"fg"__ and __"bg"__ command line arguments
+- Implemented function __do_bgfg__ to change where process is running (__fg__ or __bg__)
+- Implemented function __waitfg__ to block uniil FG process is no longer in the foreground
+- Implemented function __sigchld_handler__ to reap zombie children when a job terminates (using __waitpid__)
+- Implemented function __sigint_handler__ to allow for CTRL+C to stop processes
+- Implemented function __sigtstp_handler__ to send SIGTSTP signals to processes when CTRl+Z is pressed
