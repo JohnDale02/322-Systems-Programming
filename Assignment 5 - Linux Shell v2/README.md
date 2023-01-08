@@ -1,6 +1,7 @@
  # Linux Shell ( I/O Redirection + Piping + Process Control + Signal handling )
 __Linux Shell V2 Improvements:__
-- Added 
+- Implemented I/O redirection for __Stdin__, __StdOut__, __StdErr__ ("<", ">", ">>", "2>")
+- Implemented process Pipe redirection ("|") 
 
 __Linux Shell V1:__
 - Created a Linux shell to handle a subset of command line operations and arguments
