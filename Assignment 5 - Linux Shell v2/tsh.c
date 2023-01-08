@@ -1,6 +1,4 @@
-/* <John Dale Assignment 5, worked with Dani Kasti>
- * tsh - A tiny shell program with job control
- * 
+/* John Dale Assignment 5
  * 
  */
 #include <stdio.h>
