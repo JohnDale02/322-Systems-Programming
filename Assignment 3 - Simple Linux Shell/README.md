@@ -1,4 +1,4 @@
-# Simple Linux Shell
+# Simple Linux Shell ( Process Control + Signal handling )
 - Created a __Linux shell__ to handle a subset of command line operations and arguments
 - Implemented function __ParseLine__ to create parse the command line and build argv array 
 - Implemented function __Eval__ to evaluate command line (__fg__, __bg__, __fork__) 
